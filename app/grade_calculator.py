@@ -37,7 +37,7 @@ class GradeCalculator:
         all assignments that have not been completed receive 100%. 
         """
         
-        # Need to create a copy so that we don't overwrite
+        # Need to create a copy so that we don't overwrite 
         # the values of the Grades object that was passed in
         optimistic_grades:Grades = copy.copy(grades)
         
